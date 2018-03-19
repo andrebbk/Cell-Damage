@@ -51,4 +51,7 @@
 *.meta linguist-generated
 *.prefab linguist-generated
 *.unity linguist-generated
+<<<<<<< HEAD
 *.pack filter=lfs diff=lfs merge=lfs -text
+=======
+>>>>>>> 08003f8d0de492f3e677850e6108e08decd9cbf1
