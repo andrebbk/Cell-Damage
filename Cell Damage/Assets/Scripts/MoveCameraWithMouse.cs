@@ -10,15 +10,21 @@ public class MoveCameraWithMouse : MonoBehaviour {
 	private float rotY = 0.0f; // rotation around the up/y axis
 	private float rotX = 0.0f; // rotation around the right/x axis
 
+	private Vector3 tmpMousePosition;
+
 	void Start ()
 	{
 		Vector3 rot = transform.localRotation.eulerAngles;
 		rotY = rot.y;
 		rotX = rot.x;
+
+		//Primeira posicao do rato
+		tmpMousePosition = Input.mousePosition;
 	}
 
 	void Update ()
 	{
+		
 		float mouseX = Input.GetAxis("Mouse X");
 		float mouseY = -Input.GetAxis("Mouse Y");
 
@@ -29,6 +35,8 @@ public class MoveCameraWithMouse : MonoBehaviour {
 
 		Quaternion localRotation = Quaternion.Euler(rotX, rotY, 0.0f);
 		transform.rotation = localRotation;
+
 	}
+
 
 }

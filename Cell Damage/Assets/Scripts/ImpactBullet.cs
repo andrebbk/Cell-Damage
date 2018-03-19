@@ -12,7 +12,13 @@ public class ImpactBullet : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
+		if (col.gameObject.tag != "CHAO")
+		{
+			Destroy (col.gameObject);
+		}
+
 		Destroy (this.gameObject);
+	
 	}
 
 	IEnumerator DesBala() {

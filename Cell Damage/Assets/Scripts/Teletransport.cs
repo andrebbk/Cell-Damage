@@ -8,11 +8,9 @@ public class Teletransport : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col) {
 
-		GameObject Pla = GameObject.FindGameObjectWithTag("carroPlayer");
-
-		if (col.gameObject.name == Pla.name) 
+		if (col.gameObject.tag == "carroPlayer" || col.gameObject.tag == "carros") 
 		{
-			Pla.GetComponent<ChangeCarPlayerPosition>().ChangePositionFor(_Target.transform.position, _Target);
+			col.gameObject.GetComponent<ChangeCarPlayerPosition>().ChangePositionFor(_Target.transform.position, _Target);
 		}
 
 	}

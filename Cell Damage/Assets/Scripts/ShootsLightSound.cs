@@ -43,7 +43,7 @@ public class ShootsLightSound : MonoBehaviour {
 			{				
 				Fire();
 				//5 segundos acho entre balas
-				nextFire = Time.time + 0.15f;
+				nextFire = Time.time + 0.1f;
 			}
 				
 		}else
@@ -67,7 +67,7 @@ public class ShootsLightSound : MonoBehaviour {
 			Camera.main.transform.rotation);
 
 		// Add velocity to the bullet
-		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 200;
+		bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 400;
 
 		// Destroy the bullet after 2 seconds
 		//Destroy(bullet, 2.0f);        
