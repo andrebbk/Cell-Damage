@@ -136,6 +136,7 @@ public class StuntDetect : MonoBehaviour
 			jumpDist = 0;
 			jumpTime = 0;
 			jumpString = "";
+
 		}
 	}
 

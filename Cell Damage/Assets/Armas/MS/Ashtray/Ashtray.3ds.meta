@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 0e11a2657c5f01d43816e4fa0bc3a796
+timeCreated: 1521629687
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Alu
+    100002: //RootNode
+    100004: Basis
+    100006: Basis1
+    100008: Basis2
+    100010: Boole
+    100012: Boole1
+    100014: Boole2
+    100016: Boole_1
+    100018: Drehscheib
+    100020: Griff
+    100022: Griff1
+    100024: Kugel
+    100026: Kugel1
+    100028: Null-
+    100030: Null-Objek
+    100032: Stabi
+    100034: Stabi1
+    100036: Stabi2
+    100038: W_rfel
+    100040: Zylin
+    100042: Zylin1
+    100044: Zylin2
+    100046: Zylin3
+    100048: Zylin4
+    100050: Zylin5
+    100052: Zylin6
+    100054: Zylin7
+    100056: Zylin8
+    100058: Zylinder
+    100060: Zylinder_1
+    100062: Zylinder_2
+    400000: Alu
+    400002: //RootNode
+    400004: Basis
+    400006: Basis1
+    400008: Basis2
+    400010: Boole
+    400012: Boole1
+    400014: Boole2
+    400016: Boole_1
+    400018: Drehscheib
+    400020: Griff
+    400022: Griff1
+    400024: Kugel
+    400026: Kugel1
+    400028: Null-
+    400030: Null-Objek
+    400032: Stabi
+    400034: Stabi1
+    400036: Stabi2
+    400038: W_rfel
+    400040: Zylin
+    400042: Zylin1
+    400044: Zylin2
+    400046: Zylin3
+    400048: Zylin4
+    400050: Zylin5
+    400052: Zylin6
+    400054: Zylin7
+    400056: Zylin8
+    400058: Zylinder
+    400060: Zylinder_1
+    400062: Zylinder_2
+    2100000: 1
+    2100002: 2
+    2300000: Alu
+    2300002: //RootNode
+    2300004: Basis
+    2300006: Basis1
+    2300008: Basis2
+    2300010: Boole
+    2300012: Boole1
+    2300014: Boole2
+    2300016: Boole_1
+    2300018: Drehscheib
+    2300020: Griff
+    2300022: Griff1
+    2300024: Kugel
+    2300026: Kugel1
+    2300028: Null-
+    2300030: Null-Objek
+    2300032: Stabi
+    2300034: Stabi1
+    2300036: Stabi2
+    2300038: W_rfel
+    2300040: Zylin1
+    2300042: Zylin2
+    2300044: Zylin4
+    2300046: Zylin5
+    2300048: Zylin7
+    2300050: Zylin8
+    2300052: Zylinder
+    2300054: Zylinder_1
+    2300056: Zylinder_2
+    3300000: Alu
+    3300002: //RootNode
+    3300004: Basis
+    3300006: Basis1
+    3300008: Basis2
+    3300010: Boole
+    3300012: Boole1
+    3300014: Boole2
+    3300016: Boole_1
+    3300018: Drehscheib
+    3300020: Griff
+    3300022: Griff1
+    3300024: Kugel
+    3300026: Kugel1
+    3300028: Null-
+    3300030: Null-Objek
+    3300032: Stabi
+    3300034: Stabi1
+    3300036: Stabi2
+    3300038: W_rfel
+    3300040: Zylin1
+    3300042: Zylin2
+    3300044: Zylin4
+    3300046: Zylin5
+    3300048: Zylin7
+    3300050: Zylin8
+    3300052: Zylinder
+    3300054: Zylinder_1
+    3300056: Zylinder_2
+    4300000: Ashtray
+    4300002: Alu
+    4300004: Basis1
+    4300006: Basis
+    4300008: Boole_1
+    4300010: Boole1
+    4300012: Zylinder_1
+    4300014: Zylin1
+    4300016: Kugel
+    4300018: Zylin2
+    4300020: Null-
+    4300022: Zylin4
+    4300024: Zylin7
+    4300026: Stabi
+    4300028: Null-Objek
+    4300030: Stabi1
+    4300032: W_rfel
+    4300034: Zylin5
+    4300036: Stabi2
+    4300038: Basis2
+    4300040: Boole2
+    4300042: Boole
+    4300044: Kugel1
+    4300046: Drehscheib
+    4300048: Griff
+    4300050: Zylinder
+    4300052: Griff1
+    4300054: Zylinder_2
+    4300056: Zylin8
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

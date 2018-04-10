@@ -93,7 +93,7 @@ public class FlipControl : MonoBehaviour
 	}
 
 	void ApplyStopFlip()
-	{
+	{	
 		Vector3 stopFlipFactor = Vector3.zero;
 
 		stopFlipFactor.x = vp.pitchInput * flipPower.x == 0 ? Mathf.Pow(Mathf.Clamp01(vp.upDot),Mathf.Clamp(10 - Mathf.Abs(vp.localAngularVel.x), 2, 10)) * 10 : 0;
@@ -135,4 +135,5 @@ public class FlipControl : MonoBehaviour
 	{
 		rb.AddTorque(velDir * Vector3.left * Mathf.Clamp01(vp.velMag * 0.01f) * Mathf.Clamp01(vp.upDot) * diveFactor, ForceMode.Acceleration);
 	}
+
 }

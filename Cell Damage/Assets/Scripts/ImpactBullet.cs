@@ -14,7 +14,7 @@ public class ImpactBullet : MonoBehaviour {
 	{
 		if (col.gameObject.tag != "CHAO")
 		{
-			Destroy (col.gameObject);
+			
 		}
 
 		Destroy (this.gameObject);
