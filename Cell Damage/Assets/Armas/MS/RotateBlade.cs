@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class RotateBlade : MonoBehaviour {
 
-	public float speed = 50f;
+	float speed = 100f;
 
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate((0),(0),(-90f) * (speed * Time.deltaTime));
+		if (Input.GetKey (KeyCode.Mouse0)) {
+			transform.Rotate ((0), (0), (-90f) * (speed * Time.deltaTime));
+		}
 	}
+
 }
